@@ -1,0 +1,15 @@
+{
+  "Database": {
+    "ip": "10.44.1.45:5881",
+    "id": "ima",
+    "password": "tyvldim?!0",
+    "name": "DailyCheck"
+  },
+  "FilePath": {
+    "ResultFile": "C:\\DailyCheck\\file"
+  },
+  "Logging": {
+    "level": "INFO",
+    "format": ""
+  }
+}
