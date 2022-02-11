@@ -21,7 +21,7 @@ class Logger:
 
     @staticmethod
     def file_name():
-        return f"log\\daily_check.log"
+        return f"log\\read_daily_check.log"
 
     @staticmethod
     def formatter():
