@@ -6,7 +6,7 @@ ReadDailyCheck __analyzes the log__ files created from _[DailyCheck](https://git
 * __Parse XML / JSON data__
 * __Insert data into DB__
 
-🔧 For the project ReadDailyCheck, you should install:<br/>
+🔧 For the project ReadDailyCheck, you should install (I also offer _requirements.txt_):<br/>
 * BeautifulSoup4: To parse xml<br/>
 `pip install beautifulsoup4`
 * Pymssql: To connect Database - SQL Server (MS-SQL). My MS-SQL version is 2019.<br/>
