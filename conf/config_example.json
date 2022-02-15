@@ -1,0 +1,15 @@
+{
+  "Database": {
+    "ip": "ip:port",
+    "id": "id",
+    "password": "password",
+    "name": "name"
+  },
+  "FilePath": {
+    "ResultFile": "C:\\DailyCheck\\file"
+  },
+  "Logging": {
+    "level": "INFO",
+    "format": ""
+  }
+}
