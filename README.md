@@ -4,7 +4,7 @@ ReadDailyCheck __analyzes the log__ files created from _[DailyCheck](https://git
 
 📝 ReadDailyCheck is able to:<br/>
 * __Parse XML data__ (For json version _DailyCheck_, check _branch json_ out.)
-* __Database connection: Insert__
+* __Insert data into DB__
 
 🔧 For the project ReadDailyCheck, you should install:<br/>
 * BeautifulSoup4: To parse xml<br/>
