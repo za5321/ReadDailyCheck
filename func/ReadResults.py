@@ -55,4 +55,3 @@ class SvrResult:
 
     def get_wdef(self) -> str:
         return self.data["windefender"]
-
