@@ -10,7 +10,7 @@ class GetSvrInfo:
 
     def get_svr_id(self) -> int:
         cursor = self.con.cursor()
-        sql = f"SELECT SERVERID FROM SERVER_LIST WITH(NOLOCK) WHERE HOSTNAME = '{self.hostname}' AND IP = '{self.ip}'"
+        sql = f"SELECT SERVERID FROM SERVER WITH(NOLOCK) WHERE HOSTNAME = '{self.hostname}' AND IP = '{self.ip}'"
         cursor.execute(sql)
         row = cursor.fetchone()
         return row[0] if row else -1

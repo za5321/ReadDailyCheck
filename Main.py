@@ -21,7 +21,7 @@ class ReadDailyCheck:
                 disk: dict = result.get_disk()
                 for name, capacity in disk.items():
                     if capacity:
-                        name = name.replace(":\\", "")
+                        # name = name.replace(":\\", "")
                         insert.insert_disk(name, capacity)
                         logger.info(f"{name}드라이브: {capacity}")
 
